@@ -192,6 +192,7 @@ export const themeSettings = (mode) => {
 }
 
 //context for color mode
+//this func allow us to provide the ability to change colors throughout the entire app
 export const ColorModeContext = createContext({
   toggleColorMode: () => {}
 });
@@ -199,11 +200,13 @@ export const ColorModeContext = createContext({
 export const useMode = () => {
   const [mode, setMode] = useState("dark");
 
+  //memoize when calling a func in app
   const colorMode = useMemo(
     () => ({
       toggleColorMode: () => 
         setMode((prev) => (prev === "light" ? "dark" : "light" )),
     }),
+    []
   );
 
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
