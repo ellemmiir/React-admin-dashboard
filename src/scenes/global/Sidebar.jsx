@@ -36,6 +36,7 @@ const Item = ({title, to, icon, selected, setSelected}) => {
 }
 
 
+
 const ProSidebar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -130,7 +131,7 @@ const ProSidebar = () => {
               />
               <Item
                 title="Contacts Information"
-                to='/'
+                to='/contacts'
                 icon={<ContactsOutlinedIcon/>}
                 selected={selected}
                 setSelected={setSelected}
