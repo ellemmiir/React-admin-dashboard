@@ -149,7 +149,7 @@ const ProSidebar = () => {
                 sx={{m: "15px 0 5px 20px"}}
               >Pages</Typography>
               <Item
-                title="Profile From"
+                title="Profile Form"
                 to='/form'
                 icon={<PersonOutlinedIcon/>}
                 selected={selected}
