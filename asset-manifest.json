@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ellemmiir/React-admin-dashboard/static/css/main.dd3680bf.css",
+    "main.js": "/ellemmiir/React-admin-dashboard/static/js/main.0ec7f135.js",
+    "index.html": "/ellemmiir/React-admin-dashboard/index.html",
+    "main.dd3680bf.css.map": "/ellemmiir/React-admin-dashboard/static/css/main.dd3680bf.css.map",
+    "main.0ec7f135.js.map": "/ellemmiir/React-admin-dashboard/static/js/main.0ec7f135.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd3680bf.css",
+    "static/js/main.0ec7f135.js"
+  ]
+}
