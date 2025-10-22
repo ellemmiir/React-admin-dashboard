@@ -96,7 +96,7 @@ const ProSidebar = () => {
                 alt='user photo'
                 width='100px'
                 height='100px'
-                src={`../../assets/user.jpg`}
+                 src={`${process.env.PUBLIC_URL}/assets/user.jpg`}
                 style={{cursor: 'pointer', borderRadius: '50%'}}
                 />
               </Box>
